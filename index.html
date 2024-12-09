@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        .horizontal {
+            display: flex;
+        }
+
+        .vertical {
+            display: flex;
+            flex-direction: column;
+            gap:20px;
+        }
+        .vertical button{
+            height: 100%;
+            width: 250px;
+        }
+
+        .main-content{
+            gap:10px;
+        }
+
+        .btn{
+            background-color: red;
+            border:none;
+            border-radius:15px;
+            color: white;
+
+            padding: 20px;
+          
+        }
+
+        p{
+            margin:0;
+            
+        }
+
+
+    </style>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Guardians of the galaxy</h1>
+
+    <div class="horizontal">
+        <span>2014</span>
+        <span>PG-13</span>
+        <span>2h 1m</span>
+    </div>
+
+    <div class="horizontal main-content">
+        <img width="200px"
+            src="https://m.media-amazon.com/images/M/MV5BM2ZmNjQ2MzAtNDlhNi00MmQyLWJhZDMtNmJiMjFlOWY4MzcxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/d96cjJhvlMA?si=HOm3lcw8_bIaIYks"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <div class="vertical">
+            <button class="btn">
+
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                    fill="#fff">
+                    <path
+                        d="m380-300 280-180-280-180v360ZM160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm0-80h640v-480H160v480Zm0 0v-480 480Z" />
+                </svg>
+
+                <p>More videos</p>
+            </button>
+            <button class="btn">
+                
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                    fill="#fff">
+                    <path
+                        d="m380-300 280-180-280-180v360ZM160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm0-80h640v-480H160v480Zm0 0v-480 480Z" />
+                </svg>
+
+                <p>More photos</p>
+            </button>
+        </div>
+    </div>
+
+</body>
+
+</html>
